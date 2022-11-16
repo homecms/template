@@ -1,0 +1,20 @@
+{
+  "name": "homecms-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "homecms start",
+    "create:db": "createdb homecms",
+    "migrate": "homecms migrate:latest",
+    "migrate:up": "homecms migrate:up",
+    "migrate:down": "homecms migrate:down",
+    "seed": "homecms seed:add demo"
+  },
+  "engines": {
+    "node": "18.x",
+    "npm": "8.x"
+  },
+  "dependencies": {
+    "homecms": "^0.2.0"
+  }
+}
