@@ -15,6 +15,6 @@
     "npm": "8.x"
   },
   "dependencies": {
-    "homecms": "^0.2.0"
+    "homecms": "^0.2.1"
   }
 }
